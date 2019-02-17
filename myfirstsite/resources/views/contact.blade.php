@@ -2,13 +2,12 @@
 
 @section('title')
 
-   Home
+    Contact Us
 
 @endsection
 
-
 @section('content')
 
-<h1>My First Website</h1>
+    <h1>Contact page</h1>
 
 @endsection
