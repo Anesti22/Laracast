@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $task = [
+        'Go to the store',
+        'Go to the store',
+        'Go to the store',
+    ];
+
+    return view('welcome', [
+        'tasks' => $tasks,
+    ]);
 });
 
 Route::get('/about', function () {
