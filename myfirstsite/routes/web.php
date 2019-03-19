@@ -11,22 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    $task = [
-        'Go to the store',
-        'Go to the store',
-        'Go to the store',
-    ];
-
-    return view('welcome', [
-        'tasks' => $tasks,
-    ]);
-});
-
-Route::get('/about', function () {
-    return view('About');
-});
-
-Route::get('/contact', function () {
-    return view('Contact');
-});
+Route::get('/', 'PagesController@home');
+Route::get('/about', 'PagesController@about');
+Route::get('/contact', 'PagesController@contact');
