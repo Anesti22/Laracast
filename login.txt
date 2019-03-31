@@ -1,0 +1,6 @@
+Project 
+
+db_name: nest_laracast
+db_user: nest_laracast
+
+db_pass: 0sdKN6UBy6aZ0tz9
